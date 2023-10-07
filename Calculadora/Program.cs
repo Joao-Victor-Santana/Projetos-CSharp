@@ -56,20 +56,20 @@ namespace Calculator
         {
             Console.Clear ();
             Console.WriteLine ("Digite o primeiro número: ");
-            float n1= Convert.ToInt32(Console.ReadLine());
+            float n1= Convert.ToSingle(Console.ReadLine());
             Console.WriteLine ("Digite o segundo número: ");
-            float n2= Convert.ToInt32(Console.ReadLine()); 
+            float n2= Convert.ToSingle(Console.ReadLine()); 
 
-            float resultado= n1 + n2;
-            Console.WriteLine ("O resulatdo é: " + resultado);
+            float resultado = n1 + n2;
+            Console.WriteLine ("O resultado é: " + resultado);
         }
         static void SUBTRACAO()
         {
              Console.Clear ();
             Console.WriteLine ("Digite o primeiro número: ");
-            float n1= Convert.ToInt32(Console.ReadLine());
+            float n1= Convert.ToSingle(Console.ReadLine());
             Console.WriteLine ("Digite o segundo número: ");
-            float n2= Convert.ToInt32(Console.ReadLine()); 
+            float n2= Convert.ToSingle(Console.ReadLine()); 
 
             float resultado= n1 - n2;
             Console.WriteLine ("O resulatdo é: " + resultado);
@@ -80,9 +80,9 @@ namespace Calculator
         {
              Console.Clear ();
             Console.WriteLine ("Digite o primeiro número: ");
-            float n1= Convert.ToInt32(Console.ReadLine());
+            float n1= Convert.ToSingle(Console.ReadLine());
             Console.WriteLine ("Digite o segundo número: ");
-            float n2= Convert.ToInt32(Console.ReadLine()); 
+            float n2= Convert.ToSingle(Console.ReadLine()); 
 
             float resultado= n1 * n2;
             Console.WriteLine ("O resulatdo é: " + resultado);
@@ -92,9 +92,9 @@ namespace Calculator
         {
              Console.Clear ();
             Console.WriteLine ("Digite o primeiro número: ");
-            float n1= Convert.ToInt32(Console.ReadLine());
+            float n1= Convert.ToSingle(Console.ReadLine());
             Console.WriteLine ("Digite o segundo número: ");
-            float n2= Convert.ToInt32(Console.ReadLine()); 
+            float n2= Convert.ToSingle(Console.ReadLine()); 
 
             float resultado= n1 / n2;
             Console.WriteLine ("O resulatdo é: " + resultado);
