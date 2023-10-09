@@ -30,7 +30,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
            Console.WriteLine("");
            Console.WriteLine("Faça sua escolha: ");
 
-           int esclh= int.Parse(Console.ReadLine());
+           int esclh= Convert.ToInt32(Console.ReadLine());
 
            switch (esclh)
            {
@@ -58,7 +58,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             double ferro= 7.50;
             
             Console.WriteLine("Escolha quantas unidades de Ferro deseja adquirir: ");
-            int esclh2 = int.Parse(Console.ReadLine());
+            int esclh2 = Convert.ToInt32(Console.ReadLine());
             double quant2= ferro * esclh2;
 
             Console.WriteLine("Você escolheu: " + esclh2 + " Unidades de Ferro");
@@ -72,7 +72,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             double cobre = 7.50;
             
             Console.WriteLine("Escolha quantas unidades de Cobre deseja adquirir: ");
-            int esclh2 = int.Parse(Console.ReadLine());
+            int esclh2 = Convert.ToInt32(Console.ReadLine());
             double quant2= cobre * esclh2;
 
             Console.WriteLine("Você escolheu: " + esclh2 + " Unidades de Cobre");
@@ -87,7 +87,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             
             
             Console.WriteLine("Escolha quantas unidades de Vidro deseja adquirir: ");
-            int esclh2 = int.Parse(Console.ReadLine());
+            int esclh2 = Convert.ToInt32(Console.ReadLine());
             double quant2= vidro * esclh2;
 
             Console.WriteLine("Você escolheu: " + esclh2 + " Unidades de Ferro");
